@@ -2,23 +2,23 @@ import React from "react";
 
 export default function Connect({ info }) {
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Vehicle ID</th>
-          <th>Vehicle Make</th>
-          <th>Vehicle Model</th>
-          <th>Vehicle Year</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>{info.id}</td>
-          <td>{info.make}</td>
-          <td>{info.model}</td>
-          <td>{info.year}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div>
+      <br />
+      <div>
+        <strong>Vehicle ID</strong>: <span>{info.id}</span>
+      </div>
+      <br />
+      <div>
+        <strong>Vehicle Make</strong>: <span>{info.make}</span>
+      </div>
+      <br />
+      <div>
+        <strong>Vehicle Model</strong>: <span>{info.model}</span>
+      </div>
+      <br />
+      <div>
+        <strong>Vehicle Year</strong>: <span>{info.year}</span>
+      </div>
+    </div>
   );
 }
