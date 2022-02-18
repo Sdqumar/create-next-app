@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/smartcar.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/smartcar.jsx", "pages/api/smartcar.js"],
   "exclude": ["node_modules"]
 }
